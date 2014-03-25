@@ -1,0 +1,23 @@
+{
+  "name": "{%= name %}",
+  "description": "{%= description %}",
+  "version": "{%= version %}",
+  "homepage": "{%= homepage %}",
+  "license": "{%= licenses %}",
+  "copyright": "{%= author_name %}",
+  "main": "dist/{%= name %}.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "assert": "*",
+    "blanket": "*"
+  },
+  "ignore": [
+    "test",
+    "example",
+    "lib",
+    "Gruntfile.js",
+    "package.json",
+    "grunt"
+  ]
+}

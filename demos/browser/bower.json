@@ -1,0 +1,23 @@
+{
+  "name": "browser",
+  "description": "desc",
+  "version": "0.0.1",
+  "homepage": "",
+  "license": "MIT",
+  "copyright": "First + Third",
+  "main": "dist/browser.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "assert": "*",
+    "blanket": "*"
+  },
+  "ignore": [
+    "test",
+    "example",
+    "lib",
+    "Gruntfile.js",
+    "package.json",
+    "grunt"
+  ]
+}

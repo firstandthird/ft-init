@@ -1,0 +1,22 @@
+{
+  "name": "ft-init",
+  "description": "Project scaffolds for First + Third",
+  "preferGlobal": true,
+  "homepage": "https://github.com/firstandthird/ft-init",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firstandthird/ft-init.git"
+  },
+  "dependencies": {
+    "grunt-init": "~0.3.1",
+    "grunt": "~0.4.2",
+    "hooker": "~0.2.3",
+    "update-notifier": "~0.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "bin": {
+    "ft-init": "./bin/ft-init.js"
+  }
+}
