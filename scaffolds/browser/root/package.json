@@ -20,6 +20,9 @@
     "grunt-jscs-checker": "~0.3.2"
   },
   "meta": {
-    "ft-init": "{%= ftInitVersion %}"
+    "ftInit": {
+      "version": "{%= ftInit.version %}",
+      "type": "{%= ftInit.type %}"
+    }
   }
 }
