@@ -1,12 +1,12 @@
-#browser
+#test
 
-desc
+test lib
 
 ##Installation
 
 ###Bower
 
-`bower install browser`
+`bower install test`
 
 ###Manual Download
 

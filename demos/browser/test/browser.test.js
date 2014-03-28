@@ -1,4 +1,0 @@
-
-suite('browser', function() {
-
-});

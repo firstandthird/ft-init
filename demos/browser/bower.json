@@ -1,11 +1,11 @@
 {
-  "name": "browser",
-  "description": "desc",
+  "name": "test",
+  "description": "test lib",
   "version": "0.0.1",
-  "homepage": "",
+  "homepage": "http://google.com",
   "license": "MIT",
   "copyright": "First + Third",
-  "main": "dist/browser.js",
+  "main": "dist/test.js",
   "dependencies": {
   },
   "devDependencies": {
