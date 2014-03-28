@@ -32,11 +32,14 @@ var type = process.argv[2] || '';
 var libPackagePath = path.resolve(cwd, 'package.json');
 if (fs.existsSync(libPackagePath)) {
   var libPackage = require(libPackagePath);
-  if (!libPackage.meta.ftInit && !type) {
-    throw new Error('Lib was not originally created with ftInit, you must pass in the lib type');
+  if (libPackage.meta && libPackage.meta.ftInit) {
+    type = libPackage.meta.ftInit.type;
   }
-  type = libPackage.meta.ftInit.type;
   update = true;
+}
+
+if (!type) {
+  throw new Error('Must pass in type');
 }
 
 var typePath = path.resolve(__dirname, '../scaffolds/', type);
