@@ -1,4 +1,10 @@
 
+0.0.3 / 2014-04-04 
+==================
+
+  * exclude jquery when running bower concat
+  * updated grunt version and fixed jshint
+
 0.0.2 / 2014-04-04 
 ==================
 
