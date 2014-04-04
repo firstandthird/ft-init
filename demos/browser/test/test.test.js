@@ -1,4 +1,0 @@
-
-suite('test', function() {
-
-});
