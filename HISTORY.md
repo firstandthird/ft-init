@@ -1,4 +1,10 @@
 
+0.0.2 / 2014-04-04 
+==================
+
+  * changed to output lib.bower.js and lib.js instead of full
+  * removed browser readme
+
 0.0.1 / 2014-03-28 
 ==================
 
