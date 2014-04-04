@@ -5,7 +5,7 @@
   "homepage": "http://google.com",
   "license": "MIT",
   "copyright": "First + Third",
-  "main": "dist/test.js",
+  "main": "dist/test.bower.js",
   "dependencies": {
   },
   "devDependencies": {
