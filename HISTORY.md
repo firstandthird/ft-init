@@ -1,4 +1,10 @@
 
+0.0.4 / 2014-04-04 
+==================
+
+  * removed demos folder
+  * updated uglify yaml to stop using full
+
 0.0.3 / 2014-04-04 
 ==================
 
