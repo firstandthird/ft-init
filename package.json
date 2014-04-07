@@ -3,7 +3,7 @@
   "description": "Project scaffolds for First + Third",
   "preferGlobal": true,
   "homepage": "https://github.com/firstandthird/ft-init",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/firstandthird/ft-init.git"

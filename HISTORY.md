@@ -1,4 +1,10 @@
 
+0.0.5 / 2014-04-06 
+==================
+
+  * updated dev deps
+  * fixed some watch alias issues
+
 0.0.4 / 2014-04-04 
 ==================
 
