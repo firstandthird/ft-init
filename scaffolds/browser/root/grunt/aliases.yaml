@@ -9,20 +9,24 @@ lib:
   - concat:lib
   # comment this out if you don't need lib.full.js
   - concat:full
-  - less
   - clean:bower
   - test
+styles:
+  - less
 dist:
   - clean:dist
   - lib
+  - styles
   - uglify
   - bytesize
 dev:
   - lib
+  - styles
   - connect:server
   - watch
 tools:
   - jshint:tools
 default:
   - tools
+  - styles
   - dist

@@ -3,9 +3,13 @@ options:
 lib:
   files:
     - '<%= jshint.lib %>'
-    - 'lib/**/*.less'
   tasks:
     - 'lib'
+styles:
+  files:
+    - 'lib/**/*.less'
+  tasks:
+    - 'styles'
 test:
   files:
     - '<%= jshint.test %>'
