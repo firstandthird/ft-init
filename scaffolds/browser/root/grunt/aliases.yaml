@@ -11,13 +11,17 @@ lib:
   - concat:full
   - clean:bower
   - test
+styles:
+  - less
 dist:
   - clean:dist
   - lib
+  - styles
   - uglify
   - bytesize
 dev:
   - lib
+  - styles
   - connect:server
   - watch
 tools:
