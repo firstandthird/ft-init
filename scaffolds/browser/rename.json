@@ -1,4 +1,5 @@
 {
   "lib/name.js": "lib/{%= name %}.js",
+  "lib/name.less": "lib/{%= name %}.less",
   "test/name.test.js": "test/{%= name %}.test.js"
 }

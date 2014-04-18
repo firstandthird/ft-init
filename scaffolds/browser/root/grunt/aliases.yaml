@@ -9,6 +9,7 @@ lib:
   - concat:lib
   # comment this out if you don't need lib.full.js
   - concat:full
+  - less
   - clean:bower
   - test
 dist:
