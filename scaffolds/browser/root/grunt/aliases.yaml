@@ -28,5 +28,4 @@ tools:
   - jshint:tools
 default:
   - tools
-  - styles
   - dist
