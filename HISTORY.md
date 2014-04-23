@@ -1,4 +1,13 @@
 
+0.1.0 / 2014-04-23 
+==================
+
+  * updated copyright date
+  * Removed styles from default
+  * Split up less from js.
+  * Added support for less.
+  * fixed main script on bower.json
+
 0.0.5 / 2014-04-06 
 ==================
 
