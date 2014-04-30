@@ -3,9 +3,9 @@ options:
 lib:
   src:
     - 'lib/angular.<%= name %>.js'
-  dest: 'dist/angular.<%= name %>.js'
+  dest: 'dist/angular.<%= name %>.bower.js'
 full:
   src:
     - 'dist/_bower.js'
     - 'lib/angular.<%= name %>.js'
-  dest: 'dist/angular.<%= name %>.full.js'
+  dest: 'dist/angular.<%= name %>.js'

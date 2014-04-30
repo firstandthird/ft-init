@@ -7,7 +7,8 @@
   "copyright": "{%= author_name %}",
   "main": "dist/angular.{%= name %}.bower.js",
   "dependencies": {
-    "angular": "~1.3.x"
+    "angular": "~1.3.x",
+    "jquery": "*"
   },
   "devDependencies": {
     "assert": "*",
