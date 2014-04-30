@@ -1,0 +1,11 @@
+options:
+  banner: '<%= meta.banner %>'
+lib:
+  src:
+    - 'lib/angular.<%= name %>.js'
+  dest: 'dist/angular.<%= name %>.js'
+full:
+  src:
+    - 'dist/_bower.js'
+    - 'lib/angular.<%= name %>.js'
+  dest: 'dist/angular.<%= name %>.full.js'

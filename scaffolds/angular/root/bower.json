@@ -1,0 +1,24 @@
+{
+  "name": "{%= name %}",
+  "description": "{%= description %}",
+  "version": "{%= version %}",
+  "homepage": "{%= homepage %}",
+  "license": "{%= licenses %}",
+  "copyright": "{%= author_name %}",
+  "main": "dist/angular.{%= name %}.bower.js",
+  "dependencies": {
+    "angular": "~1.3.x"
+  },
+  "devDependencies": {
+    "assert": "*",
+    "blanket": "*"
+  },
+  "ignore": [
+    "test",
+    "example",
+    "lib",
+    "Gruntfile.js",
+    "package.json",
+    "grunt"
+  ]
+}

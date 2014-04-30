@@ -1,0 +1,4 @@
+{
+  "lib/angular.name.js": "lib/angular.{%= name %}.js",
+  "test/name.test.js": "test/{%= name %}.test.js"
+}
