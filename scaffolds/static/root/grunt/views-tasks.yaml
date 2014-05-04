@@ -1,0 +1,14 @@
+views:
+  options:
+    partials: views/partials/*.html
+    data: data/*.yaml
+  expand: true
+  src: '*.html'
+  cwd: views
+  dest: dist/
+watch:
+  files:
+    - views/**/*
+    - data/*
+  tasks:
+    - views

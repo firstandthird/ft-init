@@ -1,0 +1,16 @@
+less:
+  expand: true
+  src: ui/styles/*.less
+  dest: dist
+  ext: '.css'
+autoprefixer:
+  expand: true
+  src: dist/ui/styles/*.css
+watch:
+  files: 
+    - ui/styles/*.less
+  tasks:
+    - styles
+cssmin:
+  expand: true
+  src: dist/ui/styles/*

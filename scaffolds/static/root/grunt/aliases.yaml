@@ -1,0 +1,18 @@
+default:
+  - clean
+  - styles
+  - scripts
+  - views
+scripts:
+  - bower
+  - copy
+styles:
+  - less
+  - autoprefixer
+prod:
+  - uglify
+  - cssmin
+dev:
+  - default
+  - connect
+  - watch

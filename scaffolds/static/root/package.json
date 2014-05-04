@@ -1,0 +1,24 @@
+{
+  "name": "{%= name %}",
+  "description": "{%= description %}",
+  "version": "{%= version %}",
+  "homepage": "{%= homepage %}",
+  "license": "{%= licenses %}",
+  "copyright": "{%= author_name %}",
+  "devDependencies": {
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt": "^0.4.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-connect": "^0.7.1",
+    "load-grunt-config": "^0.9.0",
+    "grunt-contrib-less": "^0.11.0",
+    "grunt-contrib-cssmin": "^0.9.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "hogan.js": "^2.0.0",
+    "grunt-concat-bower": "^0.3.1",
+    "grunt-autoprefixer": "^0.7.3",
+    "grunt-contrib-copy": "^0.5.0"
+  }
+}

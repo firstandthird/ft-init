@@ -1,0 +1,12 @@
+{
+  "name": "{%= name %}",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "fidel": "~2.2.5",
+    "oban": "~0.15.0"
+  },
+  "resolutions": {
+    "jquery": "1.*"
+  }
+}

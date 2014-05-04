@@ -1,0 +1,12 @@
+clean:
+  - dist
+watch:
+  files:
+    - grunt/*
+    - Gruntfile.js
+    - bower.json
+    - package.json
+  options:
+    reload: true
+  tasks:
+    - default

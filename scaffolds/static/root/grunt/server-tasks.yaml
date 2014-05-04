@@ -1,0 +1,9 @@
+connect:
+  options:
+    livereload: true
+    base: dist
+watch:
+  files:
+    - dist/**/*
+  options:
+    livereload: true
