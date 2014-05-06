@@ -1,4 +1,8 @@
 less:
+  options:
+    paths: 
+      - bower_components/oban
+      - bower_components/
   expand: true
   src: ui/styles/*.less
   dest: dist
