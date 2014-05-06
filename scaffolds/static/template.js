@@ -41,6 +41,11 @@ exports.template = function(grunt, init, done) {
       delete files['views/index.html'];
       delete files['views/partials/header.html'];
     }
+
+    //fix for gitignore
+    files['.gitignore'] = files.gitignore;
+    delete files.gitignore;
+
     init.copyAndProcess(files, props);
     done();
 
