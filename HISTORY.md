@@ -1,4 +1,10 @@
 
+0.3.4 / 2014-05-06 
+==================
+
+  * static: don't run prod on default
+  * static: fixed bower.json
+
 0.3.3 / 2014-05-06 
 ==================
 
