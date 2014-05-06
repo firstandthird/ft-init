@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>{%= name %}</title>
-    <link rel="stylesheet" href="/ui/styles/common.css"/>
-  </head>
-  <body>
-  {{>header}}
-  <script src="/ui/scripts/common.js"></script>
-  </body>
-</html>
+{{<layout}}
+{{$body}}
+This is the homepage
+{{/body}}
+{{/layout}}
