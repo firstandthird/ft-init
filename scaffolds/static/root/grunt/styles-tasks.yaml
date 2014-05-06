@@ -2,6 +2,10 @@ aliases:
   - less
   - autoprefixer
 less:
+  options:
+    paths:
+      - bower_components/
+      - bower_components/oban/
   expand: true
   src: ui/styles/*.less
   dest: dist
