@@ -1,3 +1,8 @@
+aliases:
+  - clean
+  - styles
+  - scripts
+  - views
 clean:
   - dist
 watch:
