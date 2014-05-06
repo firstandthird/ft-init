@@ -5,32 +5,7 @@ exports.warnOn = '*';
 
 exports.template = function(grunt, init, done) {
 
-  var defaults = {
-    name: '',
-    description: '',
-    version: '0.0.1',
-    homepage: '',
-    author_name: 'First+Third',
-    licenses: 'MIT'
-  }
-  if (grunt.ftInit.update) {
-    var path = require('path');
-    var bowerJson = require(path.join(process.cwd(), 'package.json'));
-    defaults.name = bowerJson.name;
-    defaults.description = bowerJson.description;
-    defaults.version = bowerJson.version;
-    defaults.homepage = bowerJson.homepage;
-    defaults.author_name = bowerJson.copyright;
-    defaults.licenses = bowerJson.license;
-  }
-
   init.process({ type: 'static' }, [
-    init.prompt('name', defaults.name),
-    init.prompt('description', defaults.description),
-    init.prompt('version', defaults.version),
-    init.prompt('homepage', defaults.homepage),
-    init.prompt('author_name', defaults.author_name),
-    init.prompt('licenses', defaults.licenses)
   ], function(err, props) {
 
     props.ftInit = grunt.ftInit;
@@ -39,7 +14,17 @@ exports.template = function(grunt, init, done) {
       delete files['CHANGELOG.md'];
       delete files['README.md'];
       delete files['views/index.html'];
-      delete files['views/partials/header.html'];
+      delete files['views/partials/layout.html'];
+      delete files['data/common.yaml'];
+      delete files['ui/styles/common.less'];
+      delete files['ui/scripts/common.js'];
+    }
+
+    //remove bower_components and node_module files
+    for (var file in files) {
+      if (file.match(/^dist|^bower_components|^node_modules/) != null) {
+        delete files[file];
+      }
     }
 
     //fix for gitignore
