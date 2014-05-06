@@ -1,1 +1,1 @@
-pageTitle: {%= name %}
+pageTitle: "{%= name %}"
