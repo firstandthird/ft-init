@@ -1,4 +1,13 @@
 
+0.3.3 / 2014-05-06 
+==================
+
+  * updated gitignore
+  * static: removed unused meta data
+  * static: tweaks to grunt config
+  * static: fix for gitignore
+  * static: fixed less compilation with oban-neat
+
 0.3.2 / 2014-05-06 
 ==================
 
