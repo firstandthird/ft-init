@@ -1,2 +1,5 @@
 .DS_Store
 node_modules
+scaffolds/static/root/dist
+scaffolds/static/root/dist-dev
+bower_components
