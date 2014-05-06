@@ -1,4 +1,13 @@
 
+0.3.1 / 2014-05-06 
+==================
+
+  * static: added oban-neat
+  * static: ftInit meta info in package.json
+  * static: fix for quotes around common.yaml
+  * static: support for layouts
+  * static: update gitignore
+
 0.3.0 / 2014-05-04 
 ==================
 
