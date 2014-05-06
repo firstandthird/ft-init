@@ -5,9 +5,9 @@ aliases:
 connect:
   options:
     livereload: true
-    base: dist
+    base: '<%= devDist %>'
 watch:
   files:
-    - dist/**/*
+    - '<%= devDist %>/**/*'
   options:
     livereload: true

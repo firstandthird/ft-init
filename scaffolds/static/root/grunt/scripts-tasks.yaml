@@ -1,16 +1,16 @@
 aliases:
   - bower
-  - copy
+  - copy:scripts
 bower:
-  dest: dist/ui/scripts/vendor.js
+  dest: '<%= devDist %>/ui/scripts/vendor.js'
 copy:
   files:
-    - dist/ui/scripts/common.js: ui/scripts/common.js
+    - '<%= devDist %>/ui/scripts/common.js': 'ui/scripts/common.js'
 watch:
   files:
-    - ui/scripts/*.js
+    - 'ui/scripts/*.js'
   tasks:
     - scripts
 uglify:
   expand: true
-  src: dist/ui/scripts/*.js
+  src: '<%= dist %>/ui/scripts/*.js'

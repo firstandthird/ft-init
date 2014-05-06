@@ -8,11 +8,11 @@ less:
       - bower_components/oban/
   expand: true
   src: ui/styles/*.less
-  dest: dist
+  dest: '<%= devDist %>'
   ext: '.css'
 autoprefixer:
   expand: true
-  src: dist/ui/styles/*.css
+  src: '<%= devDist %>/ui/styles/*.css'
 watch:
   files: 
     - ui/styles/*.less
@@ -20,4 +20,4 @@ watch:
     - styles
 cssmin:
   expand: true
-  src: dist/ui/styles/*
+  src: '<%= dist %>/ui/styles/*'

@@ -1,3 +1,12 @@
 aliases:
+  - copy:prod
   - uglify
   - cssmin
+copy:
+  files:
+    - 
+      expand: true
+      cwd: '<%= devDist %>'
+      src: '**'
+      dest: '<%= dist %>/'
+
