@@ -17,7 +17,7 @@ watch:
   files: 
     - ui/styles/*.less
   tasks:
-    - styles
+    - css
 cssmin:
   expand: true
   src: '<%= dist %>/ui/styles/*'
