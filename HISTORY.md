@@ -1,4 +1,12 @@
 
+0.3.5 / 2014-05-07 
+==================
+
+  * added grunt-styles
+  * fixed running clean before default
+  * renamed styles tasks to css
+  * static: refactor clean tasks
+
 0.3.4 / 2014-05-06 
 ==================
 
