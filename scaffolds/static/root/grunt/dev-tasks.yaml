@@ -1,6 +1,6 @@
 aliases:
-  - default
   - clean:dev
+  - default
   - connect
   - watch
 clean:
