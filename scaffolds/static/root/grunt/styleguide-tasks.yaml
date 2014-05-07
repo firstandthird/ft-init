@@ -1,0 +1,18 @@
+styles:
+  options:
+    data:
+      projectTitle: '<%= projectName %>'
+      cssFile: 'ui/styles/common.css'
+      lessFile: 
+        file: 'ui/styles/common.less'
+        paths:
+          - bower_components/oban
+          - bower_components/
+  dest: '<%= devDist %>/styleguide.html'
+watch:
+  files:
+    - '<%= devDist %>/ui/styles/common.css'
+  tasks:
+    - styles
+
+

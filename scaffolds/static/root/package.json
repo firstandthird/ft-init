@@ -15,7 +15,8 @@
     "hogan.js": "git+https://github.com/twitter/hogan.js.git",
     "grunt-concat-bower": "^0.3.1",
     "grunt-autoprefixer": "^0.7.3",
-    "grunt-contrib-copy": "^0.5.0"
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-styles": "~0.0.4"
   },
   "meta": {
     "ftInit": {
