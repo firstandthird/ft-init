@@ -1,7 +1,10 @@
 aliases:
   - default
+  - clean:dev
   - connect
   - watch
+clean:
+  - '<%= devDist %>'
 connect:
   options:
     livereload: true

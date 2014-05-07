@@ -1,11 +1,7 @@
 aliases:
-  - clean
   - styles
   - scripts
   - views
-clean:
-  - '<%= devDist %>'
-  - '<%= dist %>'
 watch:
   files:
     - grunt/*

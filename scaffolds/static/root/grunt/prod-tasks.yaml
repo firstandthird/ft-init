@@ -1,8 +1,11 @@
 aliases:
   - default
+  - clean:prod
   - copy:prod
   - uglify
   - cssmin
+clean:
+  - '<%= dist %>'
 copy:
   files:
     - 
