@@ -26,4 +26,6 @@ tools:
     - 'bower.json'
     - 'Gruntfile.js'
     - 'grunt/*.yaml'
+  options:
+    reload: true
   tasks: 'default'
