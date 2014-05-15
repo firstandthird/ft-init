@@ -1,0 +1,7 @@
+copy:
+  files:
+    - 
+      expand: true
+      cwd: 'ui/images'
+      src: '**'
+      dest: '<%= devDist %>/ui/images/'

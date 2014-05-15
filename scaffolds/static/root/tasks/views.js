@@ -3,12 +3,16 @@ module.exports = function(grunt) {
   var Hogan = require('hogan.js');
   var path = require('path');
 
+  var toCamel = function(str) {
+    return str.replace(/(\-[a-z])/g, function($1){return $1.toUpperCase().replace('-','');});
+  };
+
   var readDir = function(pattern) {
     var obj = {};
     var files = grunt.file.expand(pattern);
     files.forEach(function(file) {
       var ext = path.extname(file);
-      var basename = path.basename(file, ext);
+      var basename = toCamel(path.basename(file, ext));
       if (ext == '.yaml') {
         obj[basename] = grunt.file.readYAML(file);
       } else {
@@ -39,6 +43,9 @@ module.exports = function(grunt) {
       if (opts.data) {
         data = readDir(opts.data);
       }
+
+      data.filename = src;
+      data.basename = path.basename(src, '.html');
       var contents = grunt.file.read(src);
       var template = Hogan.compile(contents);
       var output = template.render(data, partials);

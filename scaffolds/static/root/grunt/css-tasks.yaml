@@ -15,7 +15,7 @@ autoprefixer:
   src: '<%= devDist %>/ui/styles/*.css'
 watch:
   files: 
-    - ui/styles/*.less
+    - ui/styles/**/*.less
   tasks:
     - css
 cssmin:

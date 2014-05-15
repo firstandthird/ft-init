@@ -10,5 +10,6 @@ watch:
   files:
     - views/**/*
     - data/*
+    - tasks/views.js
   tasks:
     - views

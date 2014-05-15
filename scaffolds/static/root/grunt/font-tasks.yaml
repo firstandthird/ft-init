@@ -1,0 +1,7 @@
+copy:
+  files:
+    - 
+      expand: true
+      cwd: 'ui/fonts'
+      src: '**'
+      dest: '<%= devDist %>/ui/fonts/'

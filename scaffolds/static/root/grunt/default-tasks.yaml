@@ -1,8 +1,11 @@
 aliases:
+  - clean:dev
   - css
   - scripts
   - views
   - styles
+  - copy:images
+  - copy:fonts
 watch:
   files:
     - grunt/*
