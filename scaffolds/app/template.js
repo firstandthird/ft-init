@@ -17,7 +17,7 @@ exports.template = function(grunt, init, done) {
 
     //remove bower_components and node_module files
     for (var file in files) {
-      if (file.match(/^lib|^public|^dist|^bower_components|^node_modules/) != null) {
+      if (file.match(/^dist|^bower_components|^node_modules/) !== null) {
         delete files[file];
       }
     }
