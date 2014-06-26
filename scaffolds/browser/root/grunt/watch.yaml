@@ -5,7 +5,7 @@ lib:
     - 'lib'
 styles:
   files:
-    - 'lib/**/*.less'
+    - 'less/**/*.less'
   tasks:
     - 'styles'
 test:
