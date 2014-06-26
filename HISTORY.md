@@ -1,4 +1,13 @@
 
+0.4.0 / 2014-06-26 
+==================
+
+  * [app] init commit for an app scaffold
+  * [browser] added auto prefixer
+  * [browser] added editorconfig
+  * [browser] default add jquery dep
+  * [browser] random port for livereload
+
 0.3.7 / 2014-05-15 
 ==================
 
