@@ -1,0 +1,12 @@
+aliases:
+  - 'concat'
+concat:
+  files:
+    '<%= dist %>/vendor.js':
+      - 'bower_components/jquery/dist/jquery.js'
+watch:
+  files:
+    - '<%= ui %>/modules/**/*.js'
+    - '<%= ui %>/pages/**/*.js'
+  tasks:
+    - 'scripts'

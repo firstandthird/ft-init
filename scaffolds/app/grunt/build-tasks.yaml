@@ -1,0 +1,10 @@
+watch:
+  files:
+    - 'grunt/*.yaml'
+    - 'Gruntfile.js'
+    - 'package.json'
+    - 'bower.json'
+  options:
+    reload: true
+  tasks:
+    - 'default'

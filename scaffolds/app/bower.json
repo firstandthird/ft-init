@@ -1,0 +1,10 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "dependencies": {
+    "ft-ui": "~0.2.1",
+    "jquery": "~1.*",
+  },
+  "resolutions": {
+  }
+}

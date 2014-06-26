@@ -1,0 +1,19 @@
+aliases:
+  - 'less'
+less:
+  options:
+    paths:
+      - 'bower_components/oban/'
+      - 'bower_components/ft-ui/'
+      - '<%= ui %>/modules/global/'
+  files:
+    '<%= dist %>/common.css':
+      - '<%= ui %>/modules/global/common.less'
+      - '<%= ui %>/modules/**/*.less'
+    '<%= dist %>/home.css':
+      - '<%= ui %>/pages/home/home.less'
+watch:
+  files:
+    - '<%= ui %>/**/*.less'
+  tasks:
+    - 'styles'

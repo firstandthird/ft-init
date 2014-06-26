@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "private": "true",
+  "description": "",
+  "dependencies": {
+    "hapi": "^6.0.2",
+    "glob": "^4.0.2",
+    "joi": "^4.6.1",
+    "lout": "^5.0.0",
+    "handlebars": "^2.0.0-alpha.4",
+    "node-uuid": "^1.4.1",
+    "vogels": "^0.11.0",
+    "handlebars-layouts": "^0.3.3",
+    "lodash-node": "^2.4.1"
+  },
+  "devDependencies": {
+    "grunt-concurrent": "^0.5.0",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-nodemon": "^0.2.1",
+    "grunt-concat-bower": "^0.3.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-config": "^0.10.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^0.11.3"
+  }
+}

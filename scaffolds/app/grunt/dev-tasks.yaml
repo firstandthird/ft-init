@@ -1,0 +1,25 @@
+aliases:
+  - 'default'
+  - 'concurrent:dev'
+watch:
+  files:
+    - '<%= dist %>/**/*'
+    - '<%= ui %>/**/*.html'
+    - 'index.js'
+    - 'lib/**/*.js'
+  options:
+    livereload: '<%= livereloadPort %>'
+nodemon:
+  script: 'index.js'
+  options:
+    ext: 'js,html'
+    ignore: 
+      - 'bower_components/**'
+      - 'node_modules/**'
+      - 'public/**/*.js'
+concurrent:
+  tasks: 
+    - 'nodemon'
+    - 'watch'
+  options:
+    logConcurrentOutput: true
