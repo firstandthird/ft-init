@@ -1,6 +1,0 @@
-server:
-  options:
-    hostname: '*'
-    useAvailablePort: true
-    open: true
-    livereload: '<%= livereloadPort %>'

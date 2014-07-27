@@ -1,3 +1,0 @@
-less:
-  files:
-    - 'dist/<%= name %>.css': 'dist/<%= name %>.css'

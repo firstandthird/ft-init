@@ -10,7 +10,7 @@
     "jquery": "*"
   },
   "devDependencies": {
-    "assert": "*",
+    "chai": "*",
     "blanket": "*"
   },
   "ignore": [
