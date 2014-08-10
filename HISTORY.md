@@ -1,4 +1,9 @@
 
+0.6.0 / 2014-08-10 
+==================
+
+  * [browser] update ft-build version and pass in port
+
 0.5.0 / 2014-07-27 
 ==================
 
