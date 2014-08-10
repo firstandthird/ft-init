@@ -1,7 +1,8 @@
 module.exports = function(grunt) {
 
   require('ft-build')('browser', grunt, {
-    name: '{%= name %}'
+    name: '{%= name %}',
+    port: '8001'
   });
 
 };
